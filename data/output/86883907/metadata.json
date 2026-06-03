@@ -1,0 +1,143 @@
+{
+  "scene_id": "86883907",
+  "room": {
+    "width": 6.0,
+    "depth": 5.0,
+    "height": 3.0,
+    "type": "living_room"
+  },
+  "placements": [
+    {
+      "model_id": "blue_sofa_0",
+      "position": [
+        -1.1750000000000003,
+        0.45,
+        -1.9499999999999997
+      ],
+      "rotation_y": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 2.2,
+        "height": 0.9,
+        "depth": 0.9
+      },
+      "wall_adjacent": true
+    },
+    {
+      "model_id": "blue_sofa_1",
+      "position": [
+        -1.333819201209307,
+        0.45,
+        1.48443584842127
+      ],
+      "rotation_y": 0.23972655426914796,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 2.2,
+        "height": 0.9,
+        "depth": 0.9
+      },
+      "wall_adjacent": true
+    },
+    {
+      "model_id": "floor_lamp_0",
+      "position": [
+        -2.6999999999999997,
+        0.8,
+        -0.55
+      ],
+      "rotation_y": 1.5707963267948966,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.4,
+        "height": 1.6,
+        "depth": 0.4
+      },
+      "wall_adjacent": true
+    },
+    {
+      "model_id": "floor_lamp_1",
+      "position": [
+        0.18825060817641992,
+        0.8,
+        -0.7047696662593448
+      ],
+      "rotation_y": 5.35381812450134,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.4,
+        "height": 1.6,
+        "depth": 0.4
+      },
+      "wall_adjacent": true
+    },
+    {
+      "model_id": "floor_lamp_2",
+      "position": [
+        -1.7697555370457565,
+        0.8,
+        -0.6836900401410428
+      ],
+      "rotation_y": 2.0973046023221706,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.4,
+        "height": 1.6,
+        "depth": 0.4
+      },
+      "wall_adjacent": true
+    }
+  ],
+  "model_infos": {
+    "blue_sofa_0": {
+      "id": "blue_sofa",
+      "category": "sofa",
+      "description": "a blue fabric sofa for living room seating",
+      "similarity": 0.9135457277297974
+    },
+    "blue_sofa_1": {
+      "id": "blue_sofa",
+      "category": "sofa",
+      "description": "a blue fabric sofa for living room seating",
+      "similarity": 0.9135457277297974
+    },
+    "floor_lamp_0": {
+      "id": "floor_lamp",
+      "category": "lamp",
+      "description": "a modern floor lamp for lighting",
+      "similarity": 0.9203232526779175
+    },
+    "floor_lamp_1": {
+      "id": "floor_lamp",
+      "category": "lamp",
+      "description": "a modern floor lamp for lighting",
+      "similarity": 0.9203232526779175
+    },
+    "floor_lamp_2": {
+      "id": "floor_lamp",
+      "category": "lamp",
+      "description": "a modern floor lamp for lighting",
+      "similarity": 0.9203232526779175
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "scene_id": "f98f54b3",
+  "room": {
+    "width": 6.0,
+    "depth": 5.0,
+    "height": 3.0,
+    "type": "living_room"
+  },
+  "placements": [
+    {
+      "model_id": "wood_table",
+      "position": [
+        0.5855925535231119,
+        0.375,
+        -1.8049591301538657
+      ],
+      "rotation_y": 1.7280601722204667,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 1.4,
+        "height": 0.75,
+        "depth": 0.8
+      },
+      "wall_adjacent": false
+    },
+    {
+      "model_id": "dining_chair_0",
+      "position": [
+        2.13492004668563,
+        0.425,
+        -2.0646533519607737
+      ],
+      "rotation_y": 2.9755190964790867,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.45,
+        "height": 0.85,
+        "depth": 0.5
+      },
+      "wall_adjacent": false
+    },
+    {
+      "model_id": "dining_chair_1",
+      "position": [
+        -1.0229784728537332,
+        0.425,
+        -1.976141188894166
+      ],
+      "rotation_y": 0.10601969245374676,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.45,
+        "height": 0.85,
+        "depth": 0.5
+      },
+      "wall_adjacent": false
+    },
+    {
+      "model_id": "dining_chair_2",
+      "position": [
+        0.22337749738099133,
+        0.425,
+        -3.2364194156743604
+      ],
+      "rotation_y": 1.3229596263725463,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.45,
+        "height": 0.85,
+        "depth": 0.5
+      },
+      "wall_adjacent": false
+    },
+    {
+      "model_id": "dining_chair_3",
+      "position": [
+        0.9796847969518705,
+        0.425,
+        -0.44533039626267357
+      ],
+      "rotation_y": -1.8529179951320542,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.45,
+        "height": 0.85,
+        "depth": 0.5
+      },
+      "wall_adjacent": false
+    }
+  ],
+  "model_infos": {
+    "dining_chair_0": {
+      "id": "dining_chair",
+      "category": "chair",
+      "description": "a wooden dining chair",
+      "similarity": 0.8992487192153931
+    },
+    "dining_chair_1": {
+      "id": "dining_chair",
+      "category": "chair",
+      "description": "a wooden dining chair",
+      "similarity": 0.8992487192153931
+    },
+    "dining_chair_2": {
+      "id": "dining_chair",
+      "category": "chair",
+      "description": "a wooden dining chair",
+      "similarity": 0.8992487192153931
+    },
+    "dining_chair_3": {
+      "id": "dining_chair",
+      "category": "chair",
+      "description": "a wooden dining chair",
+      "similarity": 0.8992487192153931
+    },
+    "wood_table": {
+      "id": "wood_table",
+      "category": "table",
+      "description": "a wooden dining table with natural finish",
+      "similarity": 0.855363130569458
+    }
+  }
+}

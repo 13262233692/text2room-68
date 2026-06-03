@@ -1,0 +1,65 @@
+{
+  "scene_id": "4dc4207e",
+  "room": {
+    "width": 6.0,
+    "depth": 5.0,
+    "height": 3.0,
+    "type": "living_room"
+  },
+  "placements": [
+    {
+      "model_id": "wood_table",
+      "position": [
+        0.5855925535231119,
+        0.375,
+        -1.8049591301538657
+      ],
+      "rotation_y": 1.7280601722204667,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 1.4,
+        "height": 0.75,
+        "depth": 0.8
+      },
+      "wall_adjacent": false
+    },
+    {
+      "model_id": "dining_chair",
+      "position": [
+        2.13492004668563,
+        0.425,
+        -2.0646533519607737
+      ],
+      "rotation_y": 2.9755190964790867,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.45,
+        "height": 0.85,
+        "depth": 0.5
+      },
+      "wall_adjacent": false
+    }
+  ],
+  "model_infos": {
+    "dining_chair": {
+      "id": "dining_chair",
+      "category": "chair",
+      "description": "a wooden dining chair",
+      "similarity": 0.8992487192153931
+    },
+    "wood_table": {
+      "id": "wood_table",
+      "category": "table",
+      "description": "a wooden dining table with natural finish",
+      "similarity": 0.855363130569458
+    }
+  }
+}

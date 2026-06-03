@@ -1,0 +1,518 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "text2room"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        2,
+        4,
+        6,
+        8
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Room"
+    },
+    {
+      "name": "dining_chair_0_mesh",
+      "mesh": 1
+    },
+    {
+      "name": "dining_chair_0",
+      "translation": [
+        -0.49451291404011855,
+        0.425,
+        -1.2296906772427239
+      ],
+      "rotation": [
+        0.0,
+        0.5326461236912269,
+        0.0,
+        0.8463380571123517
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "dining_chair_1_mesh",
+      "mesh": 2
+    },
+    {
+      "name": "dining_chair_1",
+      "translation": [
+        -1.2955787097200109,
+        0.425,
+        1.0654974896831195
+      ],
+      "rotation": [
+        0.0,
+        0.7096590504850497,
+        0.0,
+        0.7045452661572978
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "dining_chair_2_mesh",
+      "mesh": 3
+    },
+    {
+      "name": "dining_chair_2",
+      "translation": [
+        2.257640808546441,
+        0.425,
+        -0.04397267313436215
+      ],
+      "rotation": [
+        0.0,
+        0.9698510603066225,
+        0.0,
+        0.24369842187039298
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "children": [
+        5
+      ]
+    },
+    {
+      "name": "dining_chair_3_mesh",
+      "mesh": 4
+    },
+    {
+      "name": "dining_chair_3",
+      "translation": [
+        0.5830627182893222,
+        0.425,
+        -1.1615615207722976
+      ],
+      "rotation": [
+        0.0,
+        0.3030373188410205,
+        0.0,
+        -0.9529786898927204
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "children": [
+        7
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "RoomMesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "dining_chair_0_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "dining_chair_1_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7
+          },
+          "indices": 8,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "name": "dining_chair_2_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10
+          },
+          "indices": 11,
+          "material": 3
+        }
+      ]
+    },
+    {
+      "name": "dining_chair_3_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13
+          },
+          "indices": 14,
+          "material": 4
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        3.0,
+        3.0,
+        2.5
+      ],
+      "min": [
+        -3.0,
+        0,
+        -2.5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [
+        0.225,
+        0.425,
+        0.25
+      ],
+      "min": [
+        -0.225,
+        -0.425,
+        -0.25
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [
+        0.225,
+        0.425,
+        0.25
+      ],
+      "min": [
+        -0.225,
+        -0.425,
+        -0.25
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [
+        0.225,
+        0.425,
+        0.25
+      ],
+      "min": [
+        -0.225,
+        -0.425,
+        -0.25
+      ]
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [
+        0.225,
+        0.425,
+        0.25
+      ],
+      "min": [
+        -0.225,
+        -0.425,
+        -0.25
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 144,
+      "target": 34963
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 96,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 384,
+      "byteLength": 144,
+      "target": 34963
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 96,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 384,
+      "byteLength": 144,
+      "target": 34963
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 96,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 384,
+      "byteLength": 144,
+      "target": 34963
+    },
+    {
+      "buffer": 4,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 4,
+      "byteOffset": 96,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 4,
+      "byteOffset": 384,
+      "byteLength": 144,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "room.bin",
+      "byteLength": 720
+    },
+    {
+      "uri": "dining_chair_0.bin",
+      "byteLength": 528
+    },
+    {
+      "uri": "dining_chair_1.bin",
+      "byteLength": 528
+    },
+    {
+      "uri": "dining_chair_2.bin",
+      "byteLength": 528
+    },
+    {
+      "uri": "dining_chair_3.bin",
+      "byteLength": 528
+    }
+  ],
+  "materials": [
+    {
+      "name": "RoomMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9,
+          0.88,
+          0.85,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8
+      }
+    },
+    {
+      "name": "dining_chair_0_material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6,
+          0.3,
+          0.1,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "dining_chair_1_material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6,
+          0.3,
+          0.1,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "dining_chair_2_material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6,
+          0.3,
+          0.1,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "dining_chair_3_material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6,
+          0.3,
+          0.1,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    }
+  ]
+}

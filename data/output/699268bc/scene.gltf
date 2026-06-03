@@ -1,0 +1,312 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "text2room"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        2,
+        4
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Room"
+    },
+    {
+      "name": "coffee_table_0_mesh",
+      "mesh": 1
+    },
+    {
+      "name": "coffee_table_0",
+      "translation": [
+        -0.4224964702478682,
+        0.225,
+        -1.1996982217002183
+      ],
+      "rotation": [
+        0.0,
+        0.5326461236912269,
+        0.0,
+        0.8463380571123517
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "coffee_table_1_mesh",
+      "mesh": 2
+    },
+    {
+      "name": "coffee_table_1",
+      "translation": [
+        -1.1069021985957375,
+        0.225,
+        1.0395097460323117
+      ],
+      "rotation": [
+        0.0,
+        0.7096590504850497,
+        0.0,
+        0.7045452661572978
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "children": [
+        3
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "RoomMesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "coffee_table_0_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4
+          },
+          "indices": 5,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "coffee_table_1_mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 6,
+            "NORMAL": 7
+          },
+          "indices": 8,
+          "material": 2
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3",
+      "max": [
+        3.0,
+        3.0,
+        2.5
+      ],
+      "min": [
+        -3.0,
+        0,
+        -2.5
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [
+        0.6,
+        0.225,
+        0.3
+      ],
+      "min": [
+        -0.6,
+        -0.225,
+        -0.3
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3",
+      "max": [
+        0.6,
+        0.225,
+        0.3
+      ],
+      "min": [
+        -0.6,
+        -0.225,
+        -0.3
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 8,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 288,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 576,
+      "byteLength": 144,
+      "target": 34963
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 96,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 384,
+      "byteLength": 144,
+      "target": 34963
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 96,
+      "byteLength": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 384,
+      "byteLength": 144,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "room.bin",
+      "byteLength": 720
+    },
+    {
+      "uri": "coffee_table_0.bin",
+      "byteLength": 528
+    },
+    {
+      "uri": "coffee_table_1.bin",
+      "byteLength": 528
+    }
+  ],
+  "materials": [
+    {
+      "name": "RoomMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9,
+          0.88,
+          0.85,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.8
+      }
+    },
+    {
+      "name": "coffee_table_0_material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6,
+          0.4,
+          0.2,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    },
+    {
+      "name": "coffee_table_1_material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6,
+          0.4,
+          0.2,
+          1.0
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.7
+      }
+    }
+  ]
+}

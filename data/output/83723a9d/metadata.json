@@ -1,0 +1,117 @@
+{
+  "scene_id": "83723a9d",
+  "room": {
+    "width": 6.0,
+    "depth": 5.0,
+    "height": 3.0,
+    "type": "bedroom"
+  },
+  "placements": [
+    {
+      "model_id": "bed",
+      "position": [
+        0.5298218341399581,
+        0.25,
+        -1.6
+      ],
+      "rotation_y": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 2.0,
+        "height": 0.5,
+        "depth": 1.6
+      },
+      "wall_adjacent": true
+    },
+    {
+      "model_id": "kitchen_cabinet_0",
+      "position": [
+        -2.6,
+        0.45,
+        -0.975
+      ],
+      "rotation_y": 1.5707963267948966,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 1.8,
+        "height": 0.9,
+        "depth": 0.6
+      },
+      "wall_adjacent": true
+    },
+    {
+      "model_id": "kitchen_cabinet_1",
+      "position": [
+        -2.6,
+        0.45,
+        0.975
+      ],
+      "rotation_y": 1.5707963267948966,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 1.8,
+        "height": 0.9,
+        "depth": 0.6
+      },
+      "wall_adjacent": true
+    },
+    {
+      "model_id": "floor_lamp",
+      "position": [
+        2.7,
+        0.8,
+        -2.0899526770202654
+      ],
+      "rotation_y": -1.5707963267948966,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.4,
+        "height": 1.6,
+        "depth": 0.4
+      },
+      "wall_adjacent": true
+    }
+  ],
+  "model_infos": {
+    "bed": {
+      "id": "bed",
+      "category": "bed",
+      "description": "a double bed for bedroom sleeping",
+      "similarity": 0.9679567813873291
+    },
+    "kitchen_cabinet_0": {
+      "id": "kitchen_cabinet",
+      "category": "cabinet",
+      "description": "a kitchen counter cabinet",
+      "similarity": 0.9511096477508545
+    },
+    "kitchen_cabinet_1": {
+      "id": "kitchen_cabinet",
+      "category": "cabinet",
+      "description": "a kitchen counter cabinet",
+      "similarity": 0.9511096477508545
+    },
+    "floor_lamp": {
+      "id": "floor_lamp",
+      "category": "lamp",
+      "description": "a modern floor lamp for lighting",
+      "similarity": 0.9203232526779175
+    }
+  }
+}

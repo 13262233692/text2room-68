@@ -1,0 +1,65 @@
+{
+  "scene_id": "699268bc",
+  "room": {
+    "width": 6.0,
+    "depth": 5.0,
+    "height": 3.0,
+    "type": "living_room"
+  },
+  "placements": [
+    {
+      "model_id": "coffee_table_0",
+      "position": [
+        -0.4224964702478682,
+        0.225,
+        -1.1996982217002183
+      ],
+      "rotation_y": 1.1234481135994163,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 1.2,
+        "height": 0.45,
+        "depth": 0.6
+      },
+      "wall_adjacent": false
+    },
+    {
+      "model_id": "coffee_table_1",
+      "position": [
+        -1.1069021985957375,
+        0.225,
+        1.0395097460323117
+      ],
+      "rotation_y": 1.57802832570652,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 1.2,
+        "height": 0.45,
+        "depth": 0.6
+      },
+      "wall_adjacent": false
+    }
+  ],
+  "model_infos": {
+    "coffee_table_0": {
+      "id": "coffee_table",
+      "category": "table",
+      "description": "a low coffee table for living room center",
+      "similarity": 0.9469970464706421
+    },
+    "coffee_table_1": {
+      "id": "coffee_table",
+      "category": "table",
+      "description": "a low coffee table for living room center",
+      "similarity": 0.9469970464706421
+    }
+  }
+}

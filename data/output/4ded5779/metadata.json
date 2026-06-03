@@ -1,0 +1,65 @@
+{
+  "scene_id": "4ded5779",
+  "room": {
+    "width": 6.0,
+    "depth": 5.0,
+    "height": 3.0,
+    "type": "living_room"
+  },
+  "placements": [
+    {
+      "model_id": "blue_sofa",
+      "position": [
+        0.5019364744483816,
+        0.45,
+        -1.95
+      ],
+      "rotation_y": 0.0,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 2.2,
+        "height": 0.9,
+        "depth": 0.9
+      },
+      "wall_adjacent": true
+    },
+    {
+      "model_id": "coffee_table",
+      "position": [
+        -2.0899526770202654,
+        0.225,
+        -0.899882726523523
+      ],
+      "rotation_y": 1.402474430341393,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 1.2,
+        "height": 0.45,
+        "depth": 0.6
+      },
+      "wall_adjacent": false
+    }
+  ],
+  "model_infos": {
+    "blue_sofa": {
+      "id": "blue_sofa",
+      "category": "sofa",
+      "description": "a blue fabric sofa for living room seating",
+      "similarity": 0.8809552788734436
+    },
+    "coffee_table": {
+      "id": "coffee_table",
+      "category": "table",
+      "description": "a low coffee table for living room center",
+      "similarity": 0.8661085367202759
+    }
+  }
+}

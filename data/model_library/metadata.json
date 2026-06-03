@@ -1,0 +1,342 @@
+{
+  "blue_sofa": {
+    "id": "blue_sofa",
+    "file_path": "blue_sofa/scene.gltf",
+    "category": "sofa",
+    "description": "a blue fabric sofa for living room seating",
+    "tags": [
+      "blue sofa",
+      "couch",
+      "seating",
+      "living room",
+      "fabric sofa"
+    ],
+    "dimensions": {
+      "width": 2.2,
+      "height": 0.9,
+      "depth": 0.9
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": true
+  },
+  "wood_table": {
+    "id": "wood_table",
+    "file_path": "wood_table/scene.gltf",
+    "category": "table",
+    "description": "a wooden dining table with natural finish",
+    "tags": [
+      "wooden table",
+      "dining table",
+      "wood table",
+      "furniture"
+    ],
+    "dimensions": {
+      "width": 1.4,
+      "height": 0.75,
+      "depth": 0.8
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": false
+  },
+  "armchair": {
+    "id": "armchair",
+    "file_path": "armchair/scene.gltf",
+    "category": "chair",
+    "description": "a comfortable armchair for seating",
+    "tags": [
+      "armchair",
+      "chair",
+      "seating",
+      "living room"
+    ],
+    "dimensions": {
+      "width": 0.9,
+      "height": 0.85,
+      "depth": 0.85
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": true
+  },
+  "bookshelf": {
+    "id": "bookshelf",
+    "file_path": "bookshelf/scene.gltf",
+    "category": "shelf",
+    "description": "a tall wooden bookshelf for storage",
+    "tags": [
+      "bookshelf",
+      "book case",
+      "shelf",
+      "storage",
+      "wooden shelf"
+    ],
+    "dimensions": {
+      "width": 0.8,
+      "height": 1.8,
+      "depth": 0.35
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": true
+  },
+  "floor_lamp": {
+    "id": "floor_lamp",
+    "file_path": "floor_lamp/scene.gltf",
+    "category": "lamp",
+    "description": "a modern floor lamp for lighting",
+    "tags": [
+      "floor lamp",
+      "lamp",
+      "lighting",
+      "standing lamp"
+    ],
+    "dimensions": {
+      "width": 0.4,
+      "height": 1.6,
+      "depth": 0.4
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": true
+  },
+  "tv_stand": {
+    "id": "tv_stand",
+    "file_path": "tv_stand/scene.gltf",
+    "category": "cabinet",
+    "description": "a TV stand media cabinet",
+    "tags": [
+      "TV stand",
+      "media cabinet",
+      "television stand",
+      "entertainment center"
+    ],
+    "dimensions": {
+      "width": 1.6,
+      "height": 0.5,
+      "depth": 0.45
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": true
+  },
+  "coffee_table": {
+    "id": "coffee_table",
+    "file_path": "coffee_table/scene.gltf",
+    "category": "table",
+    "description": "a low coffee table for living room center",
+    "tags": [
+      "coffee table",
+      "center table",
+      "low table",
+      "living room table"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "height": 0.45,
+      "depth": 0.6
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": false
+  },
+  "rug": {
+    "id": "rug",
+    "file_path": "rug/scene.gltf",
+    "category": "rug",
+    "description": "a decorative area rug for floor",
+    "tags": [
+      "rug",
+      "carpet",
+      "area rug",
+      "floor covering"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "height": 0.02,
+      "depth": 1.5
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": false
+  },
+  "bed": {
+    "id": "bed",
+    "file_path": "bed/scene.gltf",
+    "category": "bed",
+    "description": "a double bed for bedroom sleeping",
+    "tags": [
+      "bed",
+      "double bed",
+      "sleeping",
+      "bedroom",
+      "mattress"
+    ],
+    "dimensions": {
+      "width": 2.0,
+      "height": 0.5,
+      "depth": 1.6
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": true
+  },
+  "nightstand": {
+    "id": "nightstand",
+    "file_path": "nightstand/scene.gltf",
+    "category": "cabinet",
+    "description": "a small nightstand bedside table",
+    "tags": [
+      "nightstand",
+      "bedside table",
+      "side table",
+      "bedroom"
+    ],
+    "dimensions": {
+      "width": 0.5,
+      "height": 0.55,
+      "depth": 0.4
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": true
+  },
+  "desk": {
+    "id": "desk",
+    "file_path": "desk/scene.gltf",
+    "category": "table",
+    "description": "an office desk for working",
+    "tags": [
+      "desk",
+      "office desk",
+      "work table",
+      "study table"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "height": 0.75,
+      "depth": 0.6
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": true
+  },
+  "office_chair": {
+    "id": "office_chair",
+    "file_path": "office_chair/scene.gltf",
+    "category": "chair",
+    "description": "an office chair with wheels",
+    "tags": [
+      "office chair",
+      "desk chair",
+      "swivel chair",
+      "computer chair"
+    ],
+    "dimensions": {
+      "width": 0.6,
+      "height": 1.2,
+      "depth": 0.6
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": false
+  },
+  "wardrobe": {
+    "id": "wardrobe",
+    "file_path": "wardrobe/scene.gltf",
+    "category": "cabinet",
+    "description": "a tall wardrobe closet for clothes storage",
+    "tags": [
+      "wardrobe",
+      "closet",
+      "clothes storage",
+      "armoire"
+    ],
+    "dimensions": {
+      "width": 1.2,
+      "height": 2.0,
+      "depth": 0.6
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": true
+  },
+  "dining_chair": {
+    "id": "dining_chair",
+    "file_path": "dining_chair/scene.gltf",
+    "category": "chair",
+    "description": "a wooden dining chair",
+    "tags": [
+      "dining chair",
+      "kitchen chair",
+      "wooden chair",
+      "seat"
+    ],
+    "dimensions": {
+      "width": 0.45,
+      "height": 0.85,
+      "depth": 0.5
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": false
+  },
+  "kitchen_cabinet": {
+    "id": "kitchen_cabinet",
+    "file_path": "kitchen_cabinet/scene.gltf",
+    "category": "cabinet",
+    "description": "a kitchen counter cabinet",
+    "tags": [
+      "kitchen cabinet",
+      "counter",
+      "kitchen",
+      "cabinet"
+    ],
+    "dimensions": {
+      "width": 1.8,
+      "height": 0.9,
+      "depth": 0.6
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": true
+  },
+  "plant_pot": {
+    "id": "plant_pot",
+    "file_path": "plant_pot/scene.gltf",
+    "category": "decor",
+    "description": "a potted indoor plant decoration",
+    "tags": [
+      "plant",
+      "potted plant",
+      "indoor plant",
+      "decoration",
+      "greenery"
+    ],
+    "dimensions": {
+      "width": 0.4,
+      "height": 0.8,
+      "depth": 0.4
+    },
+    "offset_y": 0.0,
+    "rotatable": true,
+    "place_on_floor": true,
+    "wall_adjacent": false
+  }
+}

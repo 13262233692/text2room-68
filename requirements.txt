@@ -1,0 +1,15 @@
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.30.0
+clip @ git+https://github.com/openai/CLIP.git
+Pillow>=9.0.0
+numpy>=1.24.0
+trimesh>=3.23.0
+pygltflib>=1.16.0
+pyrender>=0.1.45
+PyOpenGL>=3.1.0
+PyOpenGL_accelerate>=3.1.0
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0.0
+python-multipart>=0.0.6

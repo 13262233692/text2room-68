@@ -1,0 +1,117 @@
+{
+  "scene_id": "5cd91f14",
+  "room": {
+    "width": 6.0,
+    "depth": 5.0,
+    "height": 3.0,
+    "type": "living_room"
+  },
+  "placements": [
+    {
+      "model_id": "dining_chair_0",
+      "position": [
+        -0.49451291404011855,
+        0.425,
+        -1.2296906772427239
+      ],
+      "rotation_y": 1.1234481135994163,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.45,
+        "height": 0.85,
+        "depth": 0.5
+      },
+      "wall_adjacent": false
+    },
+    {
+      "model_id": "dining_chair_1",
+      "position": [
+        -1.2955787097200109,
+        0.425,
+        1.0654974896831195
+      ],
+      "rotation_y": 1.57802832570652,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.45,
+        "height": 0.85,
+        "depth": 0.5
+      },
+      "wall_adjacent": false
+    },
+    {
+      "model_id": "dining_chair_2",
+      "position": [
+        2.257640808546441,
+        0.425,
+        -0.04397267313436215
+      ],
+      "rotation_y": 2.649237800419448,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.45,
+        "height": 0.85,
+        "depth": 0.5
+      },
+      "wall_adjacent": false
+    },
+    {
+      "model_id": "dining_chair_3",
+      "position": [
+        0.5830627182893222,
+        0.425,
+        -1.1615615207722976
+      ],
+      "rotation_y": 5.667428846439325,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "dimensions": {
+        "width": 0.45,
+        "height": 0.85,
+        "depth": 0.5
+      },
+      "wall_adjacent": false
+    }
+  ],
+  "model_infos": {
+    "dining_chair_0": {
+      "id": "dining_chair",
+      "category": "chair",
+      "description": "a wooden dining chair",
+      "similarity": 0.953260064125061
+    },
+    "dining_chair_1": {
+      "id": "dining_chair",
+      "category": "chair",
+      "description": "a wooden dining chair",
+      "similarity": 0.953260064125061
+    },
+    "dining_chair_2": {
+      "id": "dining_chair",
+      "category": "chair",
+      "description": "a wooden dining chair",
+      "similarity": 0.953260064125061
+    },
+    "dining_chair_3": {
+      "id": "dining_chair",
+      "category": "chair",
+      "description": "a wooden dining chair",
+      "similarity": 0.953260064125061
+    }
+  }
+}
